@@ -15,6 +15,9 @@
 		274EB9F81D936D9F004D18E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274EB9F61D936D9F004D18E4 /* LaunchScreen.storyboard */; };
 		274EBA031D936D9F004D18E4 /* WLNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EBA021D936D9F004D18E4 /* WLNetworkingTests.m */; };
 		274EBA0E1D936D9F004D18E4 /* WLNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EBA0D1D936D9F004D18E4 /* WLNetworkingUITests.m */; };
+		274EBA1D1D937091004D18E4 /* WLNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EBA1C1D937091004D18E4 /* WLNetworking.m */; };
+		274EBA1F1D938658004D18E4 /* hehe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 274EBA1E1D938658004D18E4 /* hehe.jpg */; };
+		E98F3D7BBAF031DB27736E93 /* libPods-WLNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41513842D5FE3B41DDDD83D /* libPods-WLNetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		274EBA091D936D9F004D18E4 /* WLNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274EBA0D1D936D9F004D18E4 /* WLNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLNetworkingUITests.m; sourceTree = "<group>"; };
 		274EBA0F1D936D9F004D18E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274EBA1B1D937091004D18E4 /* WLNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNetworking.h; sourceTree = "<group>"; };
+		274EBA1C1D937091004D18E4 /* WLNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLNetworking.m; sourceTree = "<group>"; };
+		274EBA1E1D938658004D18E4 /* hehe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hehe.jpg; sourceTree = "<group>"; };
+		28E2268FCDCF4A34651A7FFB /* Pods-WLNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLNetworking/Pods-WLNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		71F1D3E633A8BA9226DC270F /* Pods-WLNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLNetworking/Pods-WLNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		E41513842D5FE3B41DDDD83D /* libPods-WLNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98F3D7BBAF031DB27736E93 /* libPods-WLNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CCB24382557335ACDC14F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28E2268FCDCF4A34651A7FFB /* Pods-WLNetworking.debug.xcconfig */,
+				71F1D3E633A8BA9226DC270F /* Pods-WLNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		274EB9DC1D936D9F004D18E4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				274EBA011D936D9F004D18E4 /* WLNetworkingTests */,
 				274EBA0C1D936D9F004D18E4 /* WLNetworkingUITests */,
 				274EB9E61D936D9F004D18E4 /* Products */,
+				1CCB24382557335ACDC14F7F /* Pods */,
+				F64DF1767C057F2C782E0EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +126,9 @@
 				274EB9EC1D936D9F004D18E4 /* AppDelegate.m */,
 				274EB9EE1D936D9F004D18E4 /* ViewController.h */,
 				274EB9EF1D936D9F004D18E4 /* ViewController.m */,
+				274EBA1E1D938658004D18E4 /* hehe.jpg */,
+				274EBA1B1D937091004D18E4 /* WLNetworking.h */,
+				274EBA1C1D937091004D18E4 /* WLNetworking.m */,
 				274EB9F11D936D9F004D18E4 /* Main.storyboard */,
 				274EB9F41D936D9F004D18E4 /* Assets.xcassets */,
 				274EB9F61D936D9F004D18E4 /* LaunchScreen.storyboard */,
@@ -140,6 +164,14 @@
 			path = WLNetworkingUITests;
 			sourceTree = "<group>";
 		};
+		F64DF1767C057F2C782E0EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41513842D5FE3B41DDDD83D /* libPods-WLNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 274EBA121D936D9F004D18E4 /* Build configuration list for PBXNativeTarget "WLNetworking" */;
 			buildPhases = (
+				F2FB5788FE0943E006B97799 /* [CP] Check Pods Manifest.lock */,
 				274EB9E11D936D9F004D18E4 /* Sources */,
 				274EB9E21D936D9F004D18E4 /* Frameworks */,
 				274EB9E31D936D9F004D18E4 /* Resources */,
+				069A874E4D9558973C61AACD /* [CP] Embed Pods Frameworks */,
+				89CE39D077DB064BE0E3637C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				274EB9F81D936D9F004D18E4 /* LaunchScreen.storyboard in Resources */,
+				274EBA1F1D938658004D18E4 /* hehe.jpg in Resources */,
 				274EB9F51D936D9F004D18E4 /* Assets.xcassets in Resources */,
 				274EB9F31D936D9F004D18E4 /* Main.storyboard in Resources */,
 			);
@@ -268,11 +304,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		069A874E4D9558973C61AACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLNetworking/Pods-WLNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CE39D077DB064BE0E3637C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLNetworking/Pods-WLNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2FB5788FE0943E006B97799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		274EB9E11D936D9F004D18E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274EBA1D1D937091004D18E4 /* WLNetworking.m in Sources */,
 				274EB9F01D936D9F004D18E4 /* ViewController.m in Sources */,
 				274EB9ED1D936D9F004D18E4 /* AppDelegate.m in Sources */,
 				274EB9EA1D936D9F004D18E4 /* main.m in Sources */,
@@ -422,6 +507,7 @@
 		};
 		274EBA131D936D9F004D18E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E2268FCDCF4A34651A7FFB /* Pods-WLNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WLNetworking/Info.plist;
@@ -433,6 +519,7 @@
 		};
 		274EBA141D936D9F004D18E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F1D3E633A8BA9226DC270F /* Pods-WLNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WLNetworking/Info.plist;
@@ -507,6 +594,7 @@
 				274EBA141D936D9F004D18E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274EBA151D936D9F004D18E4 /* Build configuration list for PBXNativeTarget "WLNetworkingTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +603,7 @@
 				274EBA171D936D9F004D18E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274EBA181D936D9F004D18E4 /* Build configuration list for PBXNativeTarget "WLNetworkingUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +612,7 @@
 				274EBA1A1D936D9F004D18E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
